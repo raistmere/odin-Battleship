@@ -4,12 +4,13 @@
   "description": "The Odin Project - project: Battleship",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "jest --watch --verbose false"
+    "test": "jest",
+    "watch": "jest --watch --verbose false --coverage"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/jest": "^29.5.5",
     "jest": "^29.7.0"
   }
 }
