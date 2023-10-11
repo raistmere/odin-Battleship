@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boardContainer
+{
+    min-width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
+    display: flex;
+    gap: 20px;
+}
+
+.boardDivider
+{
+    width: 10px;
+    height: 500px;
+    background-color: rgb(106, 106, 106);
+}
+
+.board
+{
+    min-width: 500px;
+    width: 500px;
+    min-height: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.board.b1
+{
+    background-color: rgb(251, 105, 105);
+}
+
+.board.b2
+{
+    background-color: rgb(110, 110, 251);
+}
+
+.boardRow
+{
+    display: flex;
+}
+
+.boardCell
+{
+    width: 50px;
+    height: 50px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.board.b1 .boardCell
+{
+    background-color: rgb(251, 105, 105);
+}
+
+.board.b1 .boardCell:hover
+{
+    background-color: rgb(255, 0, 0);
+}
+
+
+.board.b2 .boardCell
+{
+    background-color: rgb(110, 110, 251);
+}
+
+.board.b2 .boardCell:hover
+{
+    background-color: rgb(0, 0, 255);
+}
+
+.statsContainer
+{
+    min-width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
+    display: flex;
+    gap: 20px;
+}
+
+.statsDivider
+{
+    width: 10px;
+    height: 150px;
+    background-color: rgb(106, 106, 106);
+}
+
+.stats
+{
+    min-width: 500px;
+    width: 500px;
+    min-height: 150px;
+    height: 150px;
+}
+
+.stats.p1
+{
+    background-color: rgb(251, 105, 105);
+}
+
+.stats.p2
+{
+    background-color: rgb(110, 110, 251);
+}
