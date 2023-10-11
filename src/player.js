@@ -5,7 +5,7 @@ const player = () => {
     // This method handles the player's attack call on (x, y)
     const attack = (x, y) => {
         // If (x, y) has been attacked already, then we return false because we cannot attack twice
-        if(checkAttack(x, y)){ return false };
+        if(checkAttackCoord(x, y)){ return false };
         // We can attack (x, y)
         // Call pubsub event that we are attacking (x, y)
 
@@ -15,7 +15,7 @@ const player = () => {
     };
 
     // This method handles checking to see if we already made an attack call at (x, y)
-    const checkAttack = (x, y) => {
+    const checkAttackCoord = (x, y) => {
         let coord = {x, y};
         // I tried multiple different array methods and for some reason only this one works in this format.
         // I tried doing if(element === coord) but it never works. Doesn't do a deep check I guess?
