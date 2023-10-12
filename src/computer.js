@@ -48,4 +48,4 @@ const computer = () => {
     };
 };
 
-module.exports = computer;
+export default computer;

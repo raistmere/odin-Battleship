@@ -1,4 +1,4 @@
-const ship = require("./ship.js")
+import ship from "./ship.js";
 
 
 test("Testing ship parameters", () =>

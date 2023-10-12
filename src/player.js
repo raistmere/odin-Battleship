@@ -32,4 +32,4 @@ const player = () => {
     };
 }
 
-module.exports = player;
+export default player;

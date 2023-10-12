@@ -1,4 +1,4 @@
-const computer = require("./computer.js");
+import computer from "./computer.js";
 
 let computer1 = computer();
 
